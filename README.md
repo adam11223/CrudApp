@@ -47,4 +47,4 @@ I would like to improve the user interface using bootstrap, create a login page 
 
 ## Acknowledgement
 Huge thanks to Earl for being a legendary teacher and mentor
-And the cohort!!
+and to the Cohort who were very helpful.
