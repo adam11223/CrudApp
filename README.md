@@ -12,7 +12,7 @@ The main skills and fundamentals this will display are:
 <br />
 
 ## Risk Assesment
-https://github.com/adam11223/CrudApp/issues/new
+![image](https://user-images.githubusercontent.com/81734188/163963316-515b8ca1-361e-4109-b79c-1a5cb6fb8e3e.png)
 
 <br />
 
@@ -29,6 +29,14 @@ https://github.com/adam11223/CrudApp/issues/new
 ![image](https://user-images.githubusercontent.com/81734188/163952755-2d5707fc-fad2-47f3-a18c-b61ada823649.png)
 
 One to many relationsahip: A subject can have many teachers, but in this school a teacher is assigned to teach only one subject.
+
+## CI Pipeline
+![image](https://user-images.githubusercontent.com/81734188/163965020-3d6c9311-4dd5-4435-adaa-6d1c220e6d83.png)
+
+Advantages of ci development is Smaller code changes are simpler (more atomic) and have fewer unintended consequences.
+Fault isolation is simpler and quicker.
+Mean time to resolution (MTTR) is shorter because of the smaller code changes and quicker fault isolation.
+accredited to htr-volker. 
 
 ## Models
 ![image](https://user-images.githubusercontent.com/81734188/163953040-50d477d8-39a0-40f9-bb0b-2876c7839cc1.png)
