@@ -1,0 +1,18 @@
+{% extends "global.html" %}
+<html>
+
+    {% block body %}
+
+        {%for t in tl%}
+            <div class="t">
+                {{t.teacher_name}}  | {{t.subjects.sub_name}}  <br>
+                <a href="{{ url_for('del_teacher', id=t.teacher_id) }}">Delete</a> 
+                <a href="{{ url_for('update_sub', id=t.teacher_id) }}">Update Subject</a>
+                <br>
+                <br>
+            </div>
+        {%endfor%}
+   
+    {% endblock body %}
+
+</html>

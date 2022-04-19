@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h3>TeacherApp: 
+            <a href="{{ url_for('home') }}">Home</a> 
+            <a href="{{ url_for('add_teacher') }}">Add Teacher</a> 
+            <a href="{{ url_for('sub') }}">View Subjects</a>     
+        </h3>
+    {% block body %}
+
+    {% endblock body %}
+    </body>
+</html>

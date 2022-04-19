@@ -1,0 +1,14 @@
+{% extends "global.html" %}
+<html>
+    {% block body %}
+    <form action="" method="POST">
+        {{ form.teacher_name.label }} {{ form.teacher_name }}
+        <br>
+        <br>
+        {{ form.teach_this.label }} {{ form.teach_this }}
+        <br>
+        <br>
+        {{ form.submit }}
+    </form>
+    {% endblock body %}
+</html>

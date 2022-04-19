@@ -1,0 +1,16 @@
+{% extends "global.html" %}
+<html>
+
+    {% block body %}
+    {% if subs == 0 %}
+        <p>There are no Subjects entered yet.</p>
+    {% else %}
+        {% for sub in subs %}
+            <p>{{sub}}</p>
+        {% endfor %}
+    {% endif %}
+
+    {% endblock body %}
+
+</html>
+</html>
